@@ -1,244 +1,495 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+  <!-- Materialize CSS -->
+  <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
 
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
   <title>Mahroush Chowdhury | Software Engineering Student</title>
 
-
-  <!-- Open Graph-->
+  <!-- Open Graph -->
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Mahroush Chowdhury | Software Engineering Student" />
-  <meta property="og:description" content="Software Engineering Student" />
-  <meta property="og:url" content="https://mahroush.github.io/websitetemplate/" />
-  <meta property="og:site_name" content="Mahroush Chowdhury | Software Engineering Student" />
-  <meta property="article:publisher" content="https://mahroush.github.io/websitetemplate/" />
-  <meta property="og:image" content="/examples/preview.JPG" />
+  <meta property="og:title"
+    content="Mahroush Chowdhury | Software Engineering Student" />
+  <meta property="og:description"
+    content="Software Engineering Student" />
+  <meta property="og:url"
+    content="https://mahroush.github.io/websitetemplate/" />
+  <meta property="og:site_name"
+    content="Mahroush Chowdhury | Software Engineering Student" />
+  <meta property="article:publisher"
+    content="https://mahroush.github.io/websitetemplate/" />
+
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Mahroush Chowdhury | Software Engineering Student" />
-  <meta name="twitter:description" content="Software Engineering Student" />
+  <meta name="twitter:title"
+    content="Mahroush Chowdhury | Software Engineering Student" />
+  <meta name="twitter:description"
+    content="Software Engineering Student" />
+
   <meta name="author" content="Mahroush Chowdhury" />
-  <meta name="description" content="Software Engineering student at the University of Michigan-Flint with experience in app development, student support, marketing, social media, graphic design, and campus leadership." />
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="description"
+    content="Software Engineering student at the University of Michigan-Flint with experience in app development, student support, marketing, graphic design, and campus leadership." />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon"
+    sizes="57x57"
+    href="assets/img/favicon/apple-icon-57x57.png" />
+
+  <link rel="apple-touch-icon"
+    sizes="60x60"
+    href="assets/img/favicon/apple-icon-60x60.png" />
+
+  <link rel="apple-touch-icon"
+    sizes="72x72"
+    href="assets/img/favicon/apple-icon-72x72.png" />
+
+  <link rel="apple-touch-icon"
+    sizes="76x76"
+    href="assets/img/favicon/apple-icon-76x76.png" />
+
+  <link rel="apple-touch-icon"
+    sizes="114x114"
+    href="assets/img/favicon/apple-icon-114x114.png" />
+
+  <link rel="apple-touch-icon"
+    sizes="120x120"
+    href="assets/img/favicon/apple-icon-120x120.png" />
+
+  <link rel="apple-touch-icon"
+    sizes="144x144"
+    href="assets/img/favicon/apple-icon-144x144.png" />
+
+  <link rel="apple-touch-icon"
+    sizes="152x152"
+    href="assets/img/favicon/apple-icon-152x152.png" />
+
+  <link rel="apple-touch-icon"
+    sizes="180x180"
+    href="assets/img/favicon/apple-icon-180x180.png" />
+
+  <link rel="icon"
+    type="image/png"
+    sizes="192x192"
+    href="assets/img/favicon/android-icon-192x192.png" />
+
+  <link rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="assets/img/favicon/favicon-32x32.png" />
+
+  <link rel="icon"
+    type="image/png"
+    sizes="96x96"
+    href="assets/img/favicon/favicon-96x96.png" />
+
+  <link rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="assets/img/favicon/favicon-16x16.png" />
+
+  <link rel="manifest"
+    href="assets/img/favicon/manifest.json" />
+
   <meta name="theme-color" content="#ffffff" />
   <meta name="robots" content="index, follow" />
 </head>
 
+
 <body>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
+
+  <!-- Desktop Navigation -->
   <nav class="hide-on-small-only">
+
     <ul class="side-nav fixed section table-of-contents">
 
       <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+
+        <a id="logo-container"
+          aria-label="Go to the beginning of the page"
+          href="#intro"
           class="brand-logo grey-blue-text">
-          <img src="/assets/img/profile.jpg" class="circle img-responsive profile-pic" alt="avatar">
+
+          <img
+            src="assets/img/profile.png"
+            class="circle img-responsive profile-pic"
+            alt="Mahroush Chowdhury profile picture">
+
         </a>
+
       </li>
 
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
 
       <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+
+        <a href="#about"
+          class="waves-effect waves-dark teal-text">
+
+          <i class="mdi-social-person small"></i>
+          <span>About</span>
+
+        </a>
+
       </li>
 
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
 
       <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-      
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
+
+        <a href="#experience"
+          class="waves-effect waves-dark teal-text">
+
+          <i class="mdi-action-trending-up small"></i>
+          <span>Experience</span>
+
+        </a>
+
       </li>
 
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
 
       <li class="bold">
-        <a aria-label="Open Mahroush's resume in a new tab"
-          href="/assets/resume/Mahroush_Chowdhury_Resume.pdf"
+
+        <a href="#projects"
+          class="waves-effect waves-dark teal-text">
+
+          <i class="mdi-av-my-library-books small"></i>
+          <span>Projects</span>
+
+        </a>
+
+      </li>
+
+
+      <li class="bold">
+
+        <a href="#skills"
+          class="waves-effect waves-dark teal-text">
+
+          <i class="mdi-action-assessment small"></i>
+          <span>Skills</span>
+
+        </a>
+
+      </li>
+
+
+      <li class="bold">
+
+        <a href="#education"
+          class="waves-effect waves-dark teal-text">
+
+          <i class="mdi-social-school small"></i>
+          <span>Education</span>
+
+        </a>
+
+      </li>
+
+
+      <li class="bold">
+
+        <a href="#contact"
+          class="waves-effect waves-dark teal-text">
+
+          <i class="mdi-content-mail small"></i>
+          <span>Contact</span>
+
+        </a>
+
+      </li>
+
+
+      <li class="bold">
+
+        <a
+          aria-label="Open Mahroush's resume"
+          href="assets/resume/Mahroush_Chowdhury_Resume.pdf"
           target="_blank"
           class="waves-effect waves-dark teal-text">
+
           <i class="mdi-file-folder-open small"></i>
           <span>Resume</span>
-        </a>  
+
+        </a>
+
       </li>
 
     </ul>
+
   </nav>
 
-  <!-- Nav class 2 -->
+
+  <!-- Mobile Navigation -->
   <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
+    <a
+      href="#"
+      data-activates="slide-out"
+      class="button-collapse">
+
+      <i class="mdi-navigation-menu"></i>
+
+    </a>
+
     <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">
+
+      <a id="name"
+        href="#intro"
+        class="teal-text">
+
         Mahroush Chowdhury
+
       </a>
-      <span class="black-text">Software Engineering Student</span>
+
+      <span class="black-text">
+        Software Engineering Student
+      </span>
+
     </div>
+
   </nav>
 
-  <!-- Nav class 3 -->
+
   <nav class="hide-on-large only">
+
     <ul id="slide-out" class="side-nav">
 
       <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Open Mahroush's Resume in a new tab"
-          href="/assets/resume/Mahroush_Chowdhury_Resume.pdf"
-          target="_blank"
+        <a href="#about"
           class="waves-effect waves-dark teal-text">
-          <i class="mdi-file-folder-open small"></i>
-          <span>Resume</span>
+          <i class="mdi-social-person small"></i>
+          <span>About</span>
         </a>
       </li>
 
+      <li class="bold">
+        <a href="#experience"
+          class="waves-effect waves-dark teal-text">
+          <i class="mdi-action-trending-up small"></i>
+          <span>Experience</span>
+        </a>
+      </li>
+
+      <li class="bold">
+        <a href="#projects"
+          class="waves-effect waves-dark teal-text">
+          <i class="mdi-av-my-library-books small"></i>
+          <span>Projects</span>
+        </a>
+      </li>
+
+      <li class="bold">
+        <a href="#skills"
+          class="waves-effect waves-dark teal-text">
+          <i class="mdi-action-assessment small"></i>
+          <span>Skills</span>
+        </a>
+      </li>
+
+      <li class="bold">
+        <a href="#education"
+          class="waves-effect waves-dark teal-text">
+          <i class="mdi-social-school small"></i>
+          <span>Education</span>
+        </a>
+      </li>
+
+      <li class="bold">
+        <a href="#contact"
+          class="waves-effect waves-dark teal-text">
+          <i class="mdi-content-mail small"></i>
+          <span>Contact</span>
+        </a>
+      </li>
+
+      <li class="bold">
+
+        <a
+          href="assets/resume/Mahroush_Chowdhury_Resume.pdf"
+          target="_blank"
+          class="waves-effect waves-dark teal-text">
+
+          <i class="mdi-file-folder-open small"></i>
+          <span>Resume</span>
+
+        </a>
+
+      </li>
+
     </ul>
+
   </nav>
 
-  <!-- Main Content-->
+
+
   <main>
 
-    <!-- First Section: Heading lines and image -->
-    <section id="intro" class="section scrollspy full-height">
+
+    <!-- Intro -->
+    <section id="intro"
+      class="section scrollspy full-height">
+
       <div class="overlay"></div>
 
       <div class="container">
+
         <div class="col-md-9">
 
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+          <div
+            class="content section-padding valign"
+            style="margin-left:10%; margin-top:50px;">
 
             <div class="caption">
-              <h2>Hi, I'm <span class="teal">Mahroush Chowdhury.</span></h2>
+
+              <h2>
+
+                Hi, I'm
+
+                <span class="teal">
+                  Mahroush Chowdhury.
+                </span>
+
+              </h2>
+
 
               <h5 style="color:#fff">
-                A <span class="typing" style="font-weight: 300; color:#004d40"></span>
+
+                A
+
+                <span
+                  class="typing"
+                  style="font-weight:300; color:#004d40">
+                </span>
+
               </h5>
+
 
               <h5>
-                Software Engineering student with experience in app development, student support,
-                campus leadership, marketing, and graphic design.
+
+                Software Engineering student with experience in app development,
+                student support, campus leadership, marketing, and graphic design.
+
               </h5>
+
             </div>
 
+
+            <!-- Professional Links -->
             <div class="social">
 
-              <a href="https://github.com/mahroush/" target="_blank">
+
+              <!-- GitHub -->
+              <a
+                href="https://github.com/mahroush"
+                target="_blank"
+                aria-label="Mahroush's GitHub">
+
                 <button class="icon-btn github">
+
                   <i class="fa fa-github"></i>
+
                 </button>
+
               </a>
+
+
+              <!-- Portfolio Repository -->
+              <a
+                href="https://github.com/mahroush/websitetemplate"
+                target="_blank"
+                aria-label="Mahroush's portfolio project">
+
+                <button class="icon-btn github">
+
+                  <i class="fa fa-code"></i>
+
+                </button>
+
+              </a>
+
 
             </div>
 
-            <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
+
+            <div class="buttons">
+
+              <a
+                href="#about"
+                class="readme">
+
+                Read More
+
+              </a>
+
+
+              <a
+                href="#contact"
+                class="contactme">
+
+                Contact Me
+
+              </a>
+
             </div>
 
           </div>
 
         </div>
+
       </div>
+
     </section>
 
 
-    <!-- Second Section: About -->
-    <section id="about" class="section scrollspy">
 
-      <h3 class="page-title white-text teal">About</h3>
+    <!-- About -->
+    <section
+      id="about"
+      class="section scrollspy">
+
+      <h3 class="page-title white-text teal">
+        About
+      </h3>
+
 
       <div class="container flow-text">
 
         <p>
+
           I am a Software Engineering student at the University of Michigan-Flint.
           I have experience with app development, student support, marketing,
           social media, graphic design, and campus activities.
+
         </p>
 
+
         <p>
+
           I have worked in different student-facing roles on campus, including
           orientation, recreation, research, and student organization leadership.
-          These experiences helped me build strong communication, teamwork,
+          These experiences helped me build communication, teamwork,
           organization, and problem-solving skills.
+
         </p>
 
+
         <p>
+
           I am interested in continuing to build my software and technical skills
           while working on practical projects and learning new tools.
+
         </p>
 
       </div>
@@ -246,10 +497,15 @@
     </section>
 
 
-    <!-- Third Section: Experience -->
-    <section id="experience" class="section scrollspy">
 
-      <h3 class="page-title white-text teal">Experience</h3>
+    <!-- Experience -->
+    <section
+      id="experience"
+      class="section scrollspy">
+
+      <h3 class="page-title white-text teal">
+        Experience
+      </h3>
 
       <div class="container">
 
@@ -260,27 +516,44 @@
           <div class="card-content">
 
             <p>
+
               <span class="card-title teal-text hoverline">
                 CIT Student Office Assistant
               </span>
+
             </p>
+
 
             <div class="role brown-text text-darken-2">
               University of Michigan-Flint
             </div>
 
+
             <ul>
-              <li>Support marketing and social media work.</li>
-              <li>Help with graphic work and office tasks.</li>
+
+              <li>
+                Support marketing and social media work.
+              </li>
+
+              <li>
+                Help with graphic work and office tasks.
+              </li>
+
             </ul>
 
           </div>
 
+
           <div class="card-action">
-            <span>April 2026 - Present | Flint, MI</span>
+
+            <span>
+              April 2026 - Present | Flint, MI
+            </span>
+
           </div>
 
         </div>
+
 
 
         <!-- Orientation Leader -->
@@ -289,28 +562,48 @@
           <div class="card-content">
 
             <p>
+
               <span class="card-title teal-text hoverline">
                 Student Orientation Leader
               </span>
+
             </p>
+
 
             <div class="role brown-text text-darken-2">
               University of Michigan-Flint
             </div>
 
+
             <ul>
-              <li>Guide new and transfer students during orientation.</li>
-              <li>Answer questions and help students connect with campus resources.</li>
-              <li>Support student success and create a welcoming environment.</li>
+
+              <li>
+                Guide new and transfer students during orientation.
+              </li>
+
+              <li>
+                Answer questions and help students connect with campus resources.
+              </li>
+
+              <li>
+                Help support student success and create a welcoming environment.
+              </li>
+
             </ul>
 
           </div>
 
+
           <div class="card-action">
-            <span>March 2026 - Present | Flint, MI</span>
+
+            <span>
+              March 2026 - Present | Flint, MI
+            </span>
+
           </div>
 
         </div>
+
 
 
         <!-- Intramural Referee -->
@@ -319,27 +612,45 @@
           <div class="card-content">
 
             <p>
+
               <span class="card-title teal-text hoverline">
                 Intramural Referee
               </span>
+
             </p>
+
 
             <div class="role brown-text text-darken-2">
               Recreational Center
             </div>
 
+
             <ul>
-              <li>Referee intramural games and help manage activities.</li>
-              <li>Use communication, fairness, and conflict-management skills in fast-paced situations.</li>
+
+              <li>
+                Referee intramural games and help manage activities.
+              </li>
+
+              <li>
+                Use communication, fairness, and conflict-management skills
+                during games.
+              </li>
+
             </ul>
 
           </div>
 
+
           <div class="card-action">
-            <span>February 2026 - Present | Flint, MI</span>
+
+            <span>
+              February 2026 - Present | Flint, MI
+            </span>
+
           </div>
 
         </div>
+
 
 
         <!-- Research Assistant -->
@@ -348,27 +659,45 @@
           <div class="card-content">
 
             <p>
+
               <span class="card-title teal-text hoverline">
                 Research Assistant
               </span>
+
             </p>
+
 
             <div class="role brown-text text-darken-2">
               App Development and Software Building
             </div>
 
+
             <ul>
-              <li>Helped with app development and software building.</li>
-              <li>Supported research related to app development for Parkinson's disease.</li>
+
+              <li>
+                Helped with app development and software-building work.
+              </li>
+
+              <li>
+                Supported research involving app development for Parkinson's
+                disease.
+              </li>
+
             </ul>
 
           </div>
 
+
           <div class="card-action">
-            <span>February 2026 - August 2026 | Flint, MI</span>
+
+            <span>
+              February 2026 - August 2026 | Flint, MI
+            </span>
+
           </div>
 
         </div>
+
 
 
         <!-- BSA -->
@@ -377,24 +706,40 @@
           <div class="card-content">
 
             <p>
+
               <span class="card-title teal-text hoverline">
                 Bangladeshi Student Association
               </span>
+
             </p>
+
 
             <div class="role brown-text text-darken-2">
               Leadership and Event Coordinator
             </div>
 
+
             <ul>
-              <li>Helped coordinate events and student activities.</li>
-              <li>Supported event tabling and communication with students.</li>
+
+              <li>
+                Helped coordinate events and student activities.
+              </li>
+
+              <li>
+                Supported event tabling and communication with students.
+              </li>
+
             </ul>
 
           </div>
 
+
           <div class="card-action">
-            <span>January 2023 - April 2026 | Flint, MI</span>
+
+            <span>
+              January 2023 - April 2026 | Flint, MI
+            </span>
+
           </div>
 
         </div>
@@ -405,10 +750,16 @@
     </section>
 
 
-    <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
 
-      <h3 class="page-title white-text teal">Projects</h3>
+    <!-- Projects -->
+    <section
+      id="projects"
+      class="section scrollspy">
+
+      <h3 class="page-title white-text teal">
+        Projects
+      </h3>
+
 
       <div class="container">
 
@@ -420,29 +771,52 @@
 
             <div class="card medium">
 
+
               <div class="card-content">
 
                 <span class="card-title teal-text hoverline">
                   Research App Development
                 </span>
 
+
                 <p>
-                  Worked on app development and software building as part of research
-                  work related to Parkinson's disease.
+
+                  Worked on app development and software building as part of
+                  research work related to Parkinson's disease.
+
                 </p>
 
               </div>
 
+
               <div class="card-reveal">
 
                 <span class="card-title grey-text">
-                  <small>My Contribution</small>
+
+                  <small>
+                    My Contribution
+                  </small>
+
                   <i class="mdi-navigation-close right"></i>
+
                 </span>
 
+
                 <ul>
-                  <li>Supported app development and software-building tasks.</li>
-                  <li>Worked as a research assistant on a project connected to Parkinson's disease.</li>
+
+                  <li>
+                    Supported app development and software-building tasks.
+                  </li>
+
+                  <li>
+                    Worked as a research assistant on a project connected to
+                    Parkinson's disease.
+                  </li>
+
+                  <li>
+                    <b>Area:</b> App development and software building
+                  </li>
+
                 </ul>
 
               </div>
@@ -452,10 +826,12 @@
           </div>
 
 
+
           <!-- Resume Website -->
           <div class="col s12 m6 l6">
 
             <div class="card medium">
+
 
               <div class="card-content">
 
@@ -463,37 +839,64 @@
                   Personal Resume Website
                 </span>
 
+
                 <p>
-                  A personal resume website created for a career fair and published
-                  using GitHub Pages.
+
+                  A personal resume website created for a career fair and
+                  published using GitHub Pages.
+
                 </p>
 
               </div>
 
+
               <div class="card-reveal">
 
                 <span class="card-title grey-text">
-                  <small>My Contribution</small>
+
+                  <small>
+                    My Contribution
+                  </small>
+
                   <i class="mdi-navigation-close right"></i>
+
                 </span>
 
+
                 <ul>
-                  <li>Customized the website with my education, experience, skills, and projects.</li>
-                  <li><b>Tools:</b> HTML, CSS, GitHub, GitHub Pages</li>
+
+                  <li>
+
+                    Customized the website with my education, experience,
+                    skills, resume, and projects.
+
+                  </li>
+
+                  <li>
+
+                    <b>Technologies:</b>
+                    HTML, CSS, GitHub, GitHub Pages
+
+                  </li>
+
                 </ul>
+
 
                 <div class="card-action">
 
-                  <a aria-label="Visit my GitHub profile"
-                    href="https://github.com/mahroush"
+
+                  <a
+                    aria-label="View resume website repository"
+                    href="https://github.com/mahroush/websitetemplate"
                     target="_blank"
                     data-position="top"
-                    data-tooltip="View GitHub"
+                    data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
 
                     <i class="fa fa-github"></i>
 
                   </a>
+
 
                 </div>
 
@@ -511,14 +914,21 @@
     </section>
 
 
-    <!-- Fifth Section: Skills -->
-    <section id="skills" class="section scrollspy">
 
-      <h3 class="page-title white-text teal">Skills</h3>
+    <!-- Skills -->
+    <section
+      id="skills"
+      class="section scrollspy">
+
+      <h3 class="page-title white-text teal">
+        Skills
+      </h3>
+
 
       <div class="container">
 
 
+        <!-- Technical -->
         <div class="card">
 
           <div class="card-content">
@@ -528,11 +938,27 @@
             </h4>
 
             <ul>
-              <li>App and software development</li>
-              <li>Graphic design</li>
-              <li>Social media and advertising</li>
-              <li>Git and GitHub</li>
-              <li>HTML and CSS</li>
+
+              <li>
+                App and software development
+              </li>
+
+              <li>
+                HTML and CSS
+              </li>
+
+              <li>
+                Git and GitHub
+              </li>
+
+              <li>
+                Graphic design
+              </li>
+
+              <li>
+                Social media and advertising
+              </li>
+
             </ul>
 
           </div>
@@ -540,6 +966,8 @@
         </div>
 
 
+
+        <!-- Professional -->
         <div class="card">
 
           <div class="card-content">
@@ -549,12 +977,31 @@
             </h4>
 
             <ul>
-              <li>Communication</li>
-              <li>Customer service</li>
-              <li>Teamwork</li>
-              <li>Event management</li>
-              <li>Student support and guidance</li>
-              <li>Problem solving</li>
+
+              <li>
+                Communication
+              </li>
+
+              <li>
+                Customer service
+              </li>
+
+              <li>
+                Teamwork
+              </li>
+
+              <li>
+                Event management
+              </li>
+
+              <li>
+                Student support and guidance
+              </li>
+
+              <li>
+                Problem solving
+              </li>
+
             </ul>
 
           </div>
@@ -562,6 +1009,8 @@
         </div>
 
 
+
+        <!-- Languages -->
         <div class="card">
 
           <div class="card-content">
@@ -571,9 +1020,19 @@
             </h4>
 
             <ul>
-              <li>English</li>
-              <li>Bangla</li>
-              <li>Hindi</li>
+
+              <li>
+                English
+              </li>
+
+              <li>
+                Bangla
+              </li>
+
+              <li>
+                Hindi
+              </li>
+
             </ul>
 
           </div>
@@ -586,19 +1045,23 @@
     </section>
 
 
-    <!-- Seventh Section: Education -->
-    <section id="education" class="section scrollspy">
+
+    <!-- Education -->
+    <section
+      id="education"
+      class="section scrollspy">
 
       <h3 class="page-title white-text teal">
         Education
       </h3>
+
 
       <div class="container">
 
         <div class="row">
 
 
-          <!-- University -->
+          <!-- University of Michigan-Flint -->
           <div class="col s12 m6 l6">
 
             <div class="card">
@@ -606,9 +1069,11 @@
               <div class="card-content">
 
                 <p>
+
                   <span class="card-title">
 
-                    <a href="https://www.umflint.edu/"
+                    <a
+                      href="https://www.umflint.edu/"
                       target="_blank"
                       class="teal-text hoverline">
 
@@ -617,26 +1082,29 @@
                     </a>
 
                   </span>
+
                 </p>
+
 
                 <p class="brown-text">
                   Flint, MI
                 </p>
 
+
                 <p>
 
-                  <b>Degree: </b>
+                  <b>Degree:</b>
                   Bachelor of Science in Software Engineering
 
                   <br>
 
-                  <b>Dates: </b>
+                  <b>Dates:</b>
                   January 2023 - Present
 
                   <br>
 
-                  <b>Expected Graduation: </b>
-                  [Add expected graduation date]
+                  <b>Expected Graduation:</b>
+                  December 2027
 
                 </p>
 
@@ -647,6 +1115,7 @@
           </div>
 
 
+
           <!-- Capstone School -->
           <div class="col s12 m6 l6">
 
@@ -655,23 +1124,27 @@
               <div class="card-content">
 
                 <p>
+
                   <span class="card-title teal-text">
                     Capstone School
                   </span>
+
                 </p>
+
 
                 <p class="brown-text">
                   Dhaka, Bangladesh
                 </p>
 
+
                 <p>
 
-                  <b>A Levels: </b>
+                  <b>A Levels:</b>
                   Completed August 2022
 
                   <br>
 
-                  <b>O Levels: </b>
+                  <b>O Levels:</b>
                   Completed August 2020
 
                 </p>
@@ -690,19 +1163,24 @@
     </section>
 
 
-    <!-- Eight Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
+
+    <!-- Contact -->
+    <section
+      id="contact"
+      class="section scrollspy full-height">
 
       <h3 class="page-title white-text teal">
         Contact
       </h3>
 
+
       <div class="container">
 
 
+        <!-- Email -->
         <p>
 
-          <a aria-label="Email Mahroush"
+          <a
             href="mailto:mahroush@umich.edu"
             target="_blank"
             data-position="top"
@@ -713,7 +1191,8 @@
 
           </a>
 
-          <a aria-label="Email Mahroush"
+
+          <a
             href="mailto:mahroush@umich.edu"
             class="hoverline">
 
@@ -724,25 +1203,83 @@
         </p>
 
 
+
+        <!-- GitHub -->
         <p>
 
-          <a aria-label="View Mahroush on GitHub"
+          <a
             href="https://github.com/mahroush"
             target="_blank"
             data-position="top"
-            data-tooltip="View Mahroush on GitHub"
+            data-tooltip="View GitHub"
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
 
             <i class="fa fa-github"></i>
 
           </a>
 
-          <a aria-label="Mahroush on GitHub"
+
+          <a
             href="https://github.com/mahroush"
             class="hoverline"
             target="_blank">
 
             github.com/mahroush
+
+          </a>
+
+        </p>
+
+
+
+        <!-- Portfolio Project -->
+        <p>
+
+          <a
+            href="https://github.com/mahroush/websitetemplate"
+            target="_blank"
+            data-position="top"
+            data-tooltip="View Portfolio Project"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+
+            <i class="fa fa-code"></i>
+
+          </a>
+
+
+          <a
+            href="https://github.com/mahroush/websitetemplate"
+            class="hoverline"
+            target="_blank">
+
+            Portfolio Website Project
+
+          </a>
+
+        </p>
+
+
+        <!-- Resume -->
+        <p>
+
+          <a
+            href="assets/resume/Mahroush_Chowdhury_Resume.pdf"
+            target="_blank"
+            data-position="top"
+            data-tooltip="View Resume"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+
+            <i class="fa fa-file-pdf-o"></i>
+
+          </a>
+
+
+          <a
+            href="assets/resume/Mahroush_Chowdhury_Resume.pdf"
+            class="hoverline"
+            target="_blank">
+
+            View Resume
 
           </a>
 
@@ -757,12 +1294,14 @@
   </main>
 
 
-  <!-- typed.js -->
+
+  <!-- Typed.js -->
   <script src="assets/vendor/typed.js/typed.min.js"></script>
+
 
   <script type="text/javascript">
 
-    var typed = new Typed('.typing',{
+    var typed = new Typed('.typing', {
 
       strings: [
         "Software Engineering Student",
@@ -771,7 +1310,9 @@
       ],
 
       loop: true,
+
       typeSpeed: 80,
+
       backSpeed: 40
 
     });
@@ -779,21 +1320,24 @@
   </script>
 
 
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- jQuery -->
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+  </script>
 
 
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <!-- Materialize JavaScript -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js">
+  </script>
 
 
   <script>
 
-    // Materialize - Initializers
-
     $(document).ready(function () {
 
-      $(".scrollspy").scrollSpy()
+      $(".scrollspy").scrollSpy();
 
       $(".button-collapse").sideNav({
 
@@ -803,9 +1347,9 @@
 
         closeOnClick: true
 
-      })
+      });
 
-    })
+    });
 
   </script>
 
