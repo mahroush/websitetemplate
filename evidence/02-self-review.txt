@@ -1,0 +1,28 @@
+Website Self Review
+
+Desktop view:
+The website looks good on desktop and the sections are easy to go through.
+
+Mobile view:
+I checked the website on a smaller screen and the layout still looks readable.
+
+Navigation:
+I checked the About, Experience, Projects, Skills, Education, Contact, and Resume sections.
+
+Resume:
+The resume link opens the PDF properly.
+
+Professional links:
+The GitHub and portfolio links work.
+
+Images:
+The profile image loads properly.
+
+Spelling and content:
+I checked for spelling mistakes and old information from the original template.
+
+Privacy:
+I checked that there are no passwords or private information on the website.
+
+Deployment:
+I will check the final website again after publishing it with GitHub Pages.
