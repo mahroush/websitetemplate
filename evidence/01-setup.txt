@@ -1,0 +1,16 @@
+Setup Evidence
+
+Parent repository:
+https://github.com/AmalChUm/websitetemplate
+
+My fork:
+https://github.com/mahroush/websitetemplate
+
+Local folder:
+GitHub/websitetemplate
+
+Default branch:
+master
+
+Initial site:
+The original website template opened correctly before I started making changes.
